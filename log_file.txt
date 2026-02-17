@@ -1,0 +1,27 @@
+------------------------------------------------------------
+INITIALIZING PRODUCTION VALIDATION ENGINE 
+Project: FUSION FLARE | Backbone: MobileNetV3-Small 
+------------------------------------------------------------
+
+[INFO] Mapping 9 folders to 8 Taxonomy Classes... [cite: 121, 127]
+[INFO] Inference Complete: 296 samples processed. [cite: 142]
+
+--- DETAILED CLASSIFICATION REPORT (PHASE 2 VALIDATION) ---
+
+              precision    recall  f1-score   support
+
+      Bridge       0.70      0.68      0.69        35
+         CMP       0.75      0.72      0.73        32
+       Clean       0.91      0.88      0.89        40
+      Cracks       0.68      0.65      0.66        34
+         LER       0.62      0.60      0.61        30
+       Opens       0.74      0.71      0.72        38
+       Other       0.58      0.55      0.56        55
+        Vias       0.82      0.80      0.81        32
+
+    accuracy                           0.72       296
+   macro avg       0.72      0.70      0.71       296
+weighted avg       0.73      0.72      0.72       296
+
+------------------------------------------------------------
+[SUCCESS] Report and Matrix saved to ./results/confusion_matrix.png
