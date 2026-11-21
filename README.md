@@ -10,7 +10,8 @@ Mixed precision training (AMP) support for faster experiments on CUDA devices.
 ONNX export ready for edge runtime (NXP eIQ, TensorRT, OpenVINO).
 Validation reporting tools (confusion matrix, ROC, per-class metrics, confidence distribution).
 📁 Project Structure
-DeepDefect-AI/
+
+DeepDefect-AI
 ├── data/                       # local dataset pointer (not stored in repo)
 ├── scripts/
 │   ├── train.py                # training entrypoint
