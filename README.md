@@ -12,24 +12,24 @@ Validation reporting tools (confusion matrix, ROC, per-class metrics, confidence
 📁 Project Structure
 
 DeepDefect-AI
-1. data/                       # local dataset pointer (not stored in repo)
-├── scripts/
-│   ├── train.py                # training entrypoint
-│   ├── eval_report.py          # validation + report generation (no retrain)
-│   └── export_onnx.py          # ONNX export helper (if separate)
-├── models/                     # trained artifacts (best_model.pth, .onnx)
-├── notebooks/                  # optional analysis notebooks
-├── README.md                   # this file (rendered)
-└── LICENSE
+1. data/
+2. scripts/                     # local dataset pointer (not stored in repo)
+  > train.py                # training entrypoint
+  > eval_report.py          # validation + report generation (no retrain)
+  > export_onnx.py          # ONNX export helper (if separate)
+3. models/                     # trained artifacts (best_model.pth, .onnx)
+4. notebooks/                  # optional analysis notebooks
+5. README.md                   # this file (rendered)
+6. LICENSE
 📊 Dataset
 Expected dataset structure
 Balanced_Dataset/
-├── train/
+1. train/
 │   ├── bridge/
 │   ├── Clean/
 │   ├── Crack/
 │   └── ...
-└── val/
+2.val/
     ├── bridge/
     ├── Clean/
     ├── Crack/
