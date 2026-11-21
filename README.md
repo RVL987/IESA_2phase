@@ -12,7 +12,7 @@ Validation reporting tools (confusion matrix, ROC, per-class metrics, confidence
 📁 Project Structure
 
 DeepDefect-AI
-├── data/                       # local dataset pointer (not stored in repo)
+1. data/                       # local dataset pointer (not stored in repo)
 ├── scripts/
 │   ├── train.py                # training entrypoint
 │   ├── eval_report.py          # validation + report generation (no retrain)
