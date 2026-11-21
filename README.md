@@ -25,15 +25,15 @@ DeepDefect-AI
 Expected dataset structure
 Balanced_Dataset/
 1. train/
-│   ├── bridge/
-│   ├── Clean/
-│   ├── Crack/
-│   └── ...
+   ── bridge/
+   ── Clean/
+   ── Crack/
+   ── ...
 2.val/
-    ├── bridge/
-    ├── Clean/
-    ├── Crack/
-    └── ...
+    ── bridge/
+    ── Clean/
+    ── Crack/
+    ── ...
 🛠 Installation
 Recommended: create and activate a Python virtual environment (PowerShell example below). If you're on an external HDD, the venv still works — but activate it before pip install to avoid user-site installs.
 
